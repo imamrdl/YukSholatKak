@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/label"
+        android:layout_width="wrap_content"
+        android:layout_height="121dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="42dp"
+        app:srcCompat="@drawable/img_yuksholatkak" />
+
+    <TextView
+        android:id="@+id/welcome_app"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_below="@id/label"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="Prayer Schedule for you"
+        android:textColor="#FFC107"
+        android:textSize="24sp" />
+
+
+    <Button
+        android:id="@+id/schedule"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="210dp"
+        android:text="Jadwal Sholat"
+        android:background="#ffff"/>
+
+
+<!--    <Button-->
+<!--        android:id="@+id/contoh"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/feedbackbutton"-->
+<!--        android:text="New Activity3" />-->
+
+
+</RelativeLayout>
+
+
